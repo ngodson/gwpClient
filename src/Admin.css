@@ -1,0 +1,82 @@
+.main {
+    background-image: url("./images/theCrown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 358.5px;
+   
+}
+
+.adminContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:200px;
+}
+
+.loginImage img {
+    position: absolute;
+    top:-30px;
+    left:-10px;
+    width: 15vw;
+    margin:0;
+}
+
+.inputs input {
+    padding: 10px;
+    width: 30vw;
+    margin:5px;
+    border:0.5px solid rgb(56, 87, 56);
+    border-radius: 4px;
+    outline:none;
+}
+.inputs input::placeholder {
+    font-size: 14px;
+}
+
+
+input:focus::-webkit-input-placeholder {
+    font-size: 10px;
+    position: relative;
+    top: -18px; 
+    transition: 0.2s ease-out;
+}
+
+input::-webkit-input-placeholder {
+    transition: 0.2s ease-in;
+}
+
+.buttons {
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    border-top:0;
+}
+
+
+.buttons button {
+    width: 20vw;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    border:none;
+    border-radius: 4px;
+    background-color: #DA251D;
+    color:white;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.loginInfo {
+    position:relative;
+    top:-160px;
+    text-align: center;
+    color:white;
+}

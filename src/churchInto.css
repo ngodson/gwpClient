@@ -1,0 +1,200 @@
+
+
+.church-bio,
+.weeklyProgram,
+.birthdayContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 60px 0 60px;
+    overflow: hidden;
+}
+
+.church-bio img {
+    width: 400px;
+}
+
+.gwpIntro {
+    font-size:15px;
+}
+
+/* section start for weekly program */
+
+.weeklyText img {
+    width: 300px;
+    position: relative;
+}
+
+.imageContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer img {
+    width:250px;
+    margin: 5px 5px 5px 5px;
+}
+
+.imageContainer img:hover {
+    transform: scale(1.3);
+    transition: 1s ease-in-out;
+    position:relative;
+    left:-20px;
+}
+
+/* section start testimony */
+
+/* .testimonies {
+    display: grid;
+    grid-template-columns: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 40px 0 40px;
+    border: 1px solid blue;
+  
+} */
+
+.testy {
+    position: relative;
+    z-index:1;
+} 
+
+.testimoniesContainer {
+    background: linear-gradient(160deg, #E40C2B 50%, #1D1D2C calc(50% + 1px));
+    margin-top: 80px;
+    width: 100vw;
+}
+
+.swiperContainer {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+
+}
+.slider {
+    /* display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center; */
+    border: none;
+    border-radius: 10px;
+    margin-left:50px;
+    width: 300px;
+    height:300px;
+    text-align: center;
+    padding:40px 15px 0;
+    background-color: white;
+    box-shadow: 7px 10px 19px rgba(0,0,0,0.3);
+}
+.slider hr {
+    color:#1D1D2C;
+}
+
+.testimonies h2 {
+    text-align: center;
+    position: relative;
+    color:white;
+}
+
+.testimonyName {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color:gray
+}
+
+/* section start from birthdays */
+
+.birthdayCelebranteContainer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.celebrateTextContainer img {
+    width: 300px;
+    position:relative;
+}
+
+
+.birthdayCelebranteContainer img {
+    width:200px;
+    margin:5px;
+}
+
+/* section start contact us */
+.contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 80px;
+    background-image: url("./images/footer.png");
+} 
+
+.firstContactContainerInner {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding:70px;
+    color:white;
+}
+
+.contactNumber {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.secondContactContainerInner {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    color:white;
+}
+
+.secondContactContainerInner textarea {
+    min-height:20vh;
+    min-width: 20vw;
+    max-height: 35vh;
+    max-width: 35vw;
+    height: 30vh;
+    width: 30vw;
+    background: transparent;
+    border: 1px solid white;
+    margin:100px 0 30px;
+    color:white;
+    opacity:0.8;
+}
+
+.secondContactContainerInner textarea::placeholder {
+    color:red;
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.secondContactContainerInner button {
+    padding: 15px;
+    border:1px solid white;
+    background-color: transparent;
+    color:red;
+    opacity: 0.5;
+    border-radius: 3px;
+    width:150px;
+}
+
+.secondContactContainerInner button:hover {
+    color: white;
+    border: 1px solid red;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
